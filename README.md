@@ -1,10 +1,11 @@
-# Project Name
+# cpp-irc-bot
 
-Short description of your project.
+Twitch IRC Bot using Boost ASIO and Websockets
+
 
 ## Table of Contents
 
-- [Project Name](#project-name)
+- [cpp-irc-bot](#cpp-irc-bot)
   - [Table of Contents](#table-of-contents)
   - [Introduction](#introduction)
   - [Getting Started](#getting-started)
@@ -18,31 +19,74 @@ Short description of your project.
 
 ## Introduction
 
-A brief introduction to your project. Explain what your project does and why it's useful.
+This project is a Twitch IRC bot implemented in C++ using Boost ASIO and Websockets. It allows you to connect to a Twitch channel's chat, authenticate using OAuth2 tokens, and interact with the chat by responding to commands and messages.
 
 ## Getting Started
 
-Instructions on how to get a copy of your project up and running on a local machine.
+To get started with this Twitch IRC bot, follow the steps below:
 
 ### Prerequisites
 
-List any software, libraries, or dependencies that users need to have before they can use your project.
+Before using this bot, you need to have the following prerequisites installed on your system:
+
+- C++ compiler (supporting C++17 or later)
+- Boost C++ Libraries (Boost ASIO and Boost Beast)
+- CMake (for building the project)
+- Twitch account with a registered application (for obtaining OAuth2 tokens)
+- Create a config.json file with your Twitch client secret.
 
 ### Installation
 
-Step-by-step instructions on how to install your project.
+Clone the repository to your local machine.
+
+```
+git clone https://github.com/diyooor/cpp-irc-bot.git
+```
+
+Build the project using CMake. Navigate to the project's root directory and create a build directory:
+```
+mkdir build
+cd build
+```
+
+Configure the project with CMake:
+
+```
+cmake ..
+```
+
+Build the executable:
+
+```
+make
+```
+
+Run the bot:
+
+```
+./test_main.exe
+```
 
 ## Usage
 
-How to use your project once it's installed. Provide code examples or usage scenarios.
+Once the bot is running, it will connect to the specified Twitch channel's chat and listen for messages. You can extend the code to implement custom message handling logic, such as responding to specific commands.
 
 ## Features
 
-List the main features of your project. You can also include a roadmap for future features.
+- Connects to Twitch chat using WebSocket.
+- Authenticates with Twitch using OAuth2 tokens.
+- Joins a specific Twitch channel's chat.
+- Listens for messages and can respond to commands (e.g., !dice). (not working)
 
 ## Contributing
 
-Explain how others can contribute to your project. Include guidelines for submitting pull requests or reporting issues.
+Contributions to this project are welcome! If you'd like to contribute, please follow these guidelines:
+
+- Fork the repository.
+- Create a new branch for your feature or bug fix.
+- Make your changes and commit them with descriptive messages.
+- Create a pull request to submit your changes.
+- If you find any issues or have suggestions, please open an issue in the project's GitHub repository.
 
 ## License
 
@@ -50,4 +94,6 @@ This project is licensed under the [MIT License](LICENSE.md) - see the [LICENSE.
 
 ## Acknowledgments
 
-Mention any third-party libraries, tools, or resources that you used or were inspired by in your project.
+- Boost C++ Libraries for providing the ASIO and Beast libraries.
+- The Twitch API for enabling bot authentication and chat interaction.
+- The open-source community for valuable contributions and inspiration.
