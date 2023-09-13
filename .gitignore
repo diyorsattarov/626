@@ -58,3 +58,4 @@ test/test_runner
 .ninja_log
 build.ninja
 
+config.json
