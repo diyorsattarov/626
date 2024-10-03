@@ -1,99 +1,23 @@
-# cpp-irc-bot
+              GLWTS(Good Luck With That Shit) Общественная Лицензия
+                      Copyright (c) Все блять, кроме Автора
 
-Twitch IRC Bot using Boost ASIO and Websockets
+Всем разрешается копировать, распространять, изменять, совмещать, продавать,
+публиковать, сублицензировать или творить любую другую хуйню с этим кодом
+на СВОЙ СТРАХ и РИСК.
+
+Автор абсолютно нихуя не понимает в предназначении данного кода.
+Он может сработать, а может и нет - автору не ебет.
 
 
-## Table of Contents
+                    "УДАЧИ С ЭТОМ ДЕРЬМОМ" ОБЩЕСТВЕННАЯ ЛИЦЕНЗИЯ
+          УСЛОВИЯ И ПОЛОЖЕНИЯ ДЛЯ КОПИРОВАНИЯ, РАСПРОСТРАНЕНИЯ И ИЗМЕНЕНИЯ
 
-- [cpp-irc-bot](#cpp-irc-bot)
-  - [Table of Contents](#table-of-contents)
-  - [Introduction](#introduction)
-  - [Getting Started](#getting-started)
-    - [Prerequisites](#prerequisites)
-    - [Installation](#installation)
-  - [Usage](#usage)
-  - [Features](#features)
-  - [Contributing](#contributing)
-  - [License](#license)
-  - [Acknowledgments](#acknowledgments)
+  0. Делайте ЛЮБУЮ ХУЙНЮ, ВЗБРЕДУЩУЮ ВАМ В ГОЛОВУ до тех пор, пока ВЫ НЕ ОСТАВЛЯЕТЕ
+УЛИК ДЛЯ НАХОЖДЕНИЯ АВТОРА оригинального продукта, чтобы обвинить его или заставить
+взять на себя ответственность.
 
-## Introduction
+НИ ПРИ КАКИХ ОБСТОЯТЕЛЬСТВАХ АВТОРЫ НЕ НЕСУТ ОТВЕТСТВЕННОСТИ ЗА ПРЕТЕНЗИИ,
+УБЫТКИ ИЛИ ДРУГИЕ ОТВЕТСТВЕННОСТИ, ПОДНЯТЫЕ ВО ВРЕМЯ КОНТРАКТА И ВЫЗВАННЫЕ
+ПРЯМОЙ ИЛИ КОСВЕННОЙ СВЯЗЬЮ С ПРОГРАММНЫМ ОБЕСПЕЧЕНИЕМ.
 
-This project is a Twitch IRC bot implemented in C++ using Boost ASIO and Websockets. It allows you to connect to a Twitch channel's chat, authenticate using OAuth2 tokens, and interact with the chat by responding to commands and messages.
-
-## Getting Started
-
-To get started with this Twitch IRC bot, follow the steps below:
-
-### Prerequisites
-
-Before using this bot, you need to have the following prerequisites installed on your system:
-
-- C++ compiler (supporting C++17 or later)
-- Boost C++ Libraries (Boost ASIO and Boost Beast)
-- CMake (for building the project)
-- Twitch account with a registered application (for obtaining OAuth2 tokens)
-- Create a config.json file with your Twitch client secret.
-
-### Installation
-
-Clone the repository to your local machine.
-
-```
-git clone https://github.com/diyooor/cpp-irc-bot.git
-```
-
-Build the project using CMake. Navigate to the project's root directory and create a build directory:
-```
-mkdir build
-cd build
-```
-
-Configure the project with CMake:
-
-```
-cmake ..
-```
-
-Build the executable:
-
-```
-make
-```
-
-Run the bot:
-
-```
-./test_main.exe
-```
-
-## Usage
-
-Once the bot is running, it will connect to the specified Twitch channel's chat and listen for messages. You can extend the code to implement custom message handling logic, such as responding to specific commands.
-
-## Features
-
-- Connects to Twitch chat using WebSocket.
-- Authenticates with Twitch using OAuth2 tokens.
-- Joins a specific Twitch channel's chat.
-- Listens for messages and can respond to commands (e.g., !dice). (not working)
-
-## Contributing
-
-Contributions to this project are welcome! If you'd like to contribute, please follow these guidelines:
-
-- Fork the repository.
-- Create a new branch for your feature or bug fix.
-- Make your changes and commit them with descriptive messages.
-- Create a pull request to submit your changes.
-- If you find any issues or have suggestions, please open an issue in the project's GitHub repository.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE.md) - see the [LICENSE.md](LICENSE.md) file for details.
-
-## Acknowledgments
-
-- Boost C++ Libraries for providing the ASIO and Beast libraries.
-- The Twitch API for enabling bot authentication and chat interaction.
-- The open-source community for valuable contributions and inspiration.
+Удачи, и храни тебя Господь.
